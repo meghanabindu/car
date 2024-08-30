@@ -1,0 +1,51 @@
+*{
+    background-color: #222;
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box ;
+    color: #d42525;
+}
+.name{
+    font-size: 1rem;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    filter: drop-shadow(2px 2px 10px rgb(20, 155, 185));
+    color: rgb(41, 222, 228);
+}
+.banner{
+    background-image: url("https://occ-0-7613-3663.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABdYkHwZZYZ4cYPZ20OWPg4dml1YWoI5TnX0ALc_4rHEkyvokTlifJKLD2U_ypf2wNi9Jc6Jigr53o-0syqQFrB0TLUIk1A-k1U3z.jpg?r=720&quot");
+    background-size: cover;
+    background-position: center center;
+    max-width: 100%;
+    background-repeat:no-repeat;
+    height: 500px;
+}
+.posters{
+    display: flex;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    margin: 1% 0.5% ;
+}
+.posters::-webkit-scrollbar{
+    display: none;
+}
+.poster{
+    margin: 0% 5%;
+    border-radius: 5%;
+}
+h1{
+    font-weight: 900;
+    font-size: xx-large;
+    font-style: italic;
+    padding: 3% 3%;
+    color: rgb(236, 16, 16);
+
+}
+h3{
+    text-align: center;
+    color: aliceblue;
+    font-weight: 400;
+    padding: 2% 0%;
+    font-style: normal;
+    font-size: larger;
+}
